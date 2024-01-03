@@ -1,0 +1,38 @@
+@font-face {
+    font-family: RubikDoodleShadow-Regular;
+    src: url('../../assests/fonts/RubikDoodleShadow-Regular.ttf') format('truetype');
+  }
+
+.container {
+    margin-top: 20px;
+    max-height: 800px;
+    height: 100%;
+    width: 100%;
+    vertical-align: center;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.header-text {
+    text-align: center;
+    padding: 20px;
+    font-family: 'RubikDoodleShadow-Regular';
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+        max-height: 200px;
+        height: 100%;
+        max-width: 400px;
+        width: 100%;
+        vertical-align: center;
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+  }

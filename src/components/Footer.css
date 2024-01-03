@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Graphik-Regular';
+  src: url('../assests/fonts/Graphik-Regular.ttf') format('ttf'),
+}
+
+@font-face {
+  font-family: 'Calibre-Regular';
+  src: url('../assests/fonts/Calibre-Regular.otf') format('otf'),
+}
+
+.site-footer {
+  background: rgb(142,4,215);
+background: linear-gradient(90deg, rgba(142,4,215,1) 0%, rgba(99,9,191,1) 35%, rgba(206,117,236,0.9726015406162465) 100%);
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Graphik-Regular, Calibre-Regular, Segoe UI, Helvetica Neue, sans-serif ;
+}
+
+@media (max-width: 486px) {
+  .site-footer {
+    background-color: #26272b;
+   
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+
+.site-footer a {
+  color: #737373;
+}
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.site-footer .social-icons {
+  margin-top: 20px;
+  /* Adjust the spacing as needed */
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 6px;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+
+.copyright-text {
+  margin: 0;
+  color: #33353d;
+  font-weight: 600;
+  font-family: Graphik-Regular, Calibre-Regular, Segoe UI, Helvetica Neue, sans-serif ;
+   
+  a {
+    font-family: Graphik-Regular, Calibre-Regular, Segoe UI, Helvetica Neue, sans-serif ;
+  }
+}
+
+@media (max-width: 486px) {
+  .site-footer [class^='col-'] {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 486px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  transition: all 0.2s linear;
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+@media (max-width: 486px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}

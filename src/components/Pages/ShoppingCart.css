@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'Graphik-Regular';
+    src: url('/src/assests/fonts/Graphik-Regular.ttf') format('ttf'),
+  }
+  
+  @font-face {
+    font-family: 'Calibre-Regular';
+    src: url('/src/assests/fonts/Calibre-Regular.otf') format('otf'),
+  }
+
+.custom-swal-title {
+    font-family: 'Graphik-Regular', 'Calibre-Regular';
+  }
+  
+  .back-to-shop-text {
+    background-color: black;
+    color: yellow;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Graphik-Regular', 'Calibre-Regular';
+  }
+  

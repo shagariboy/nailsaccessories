@@ -1,0 +1,69 @@
+
+@font-face {
+  font-family: 'Graphik-Regular';
+  src: url('../assests/fonts/Graphik-Regular.ttf') format('ttf'),
+}
+
+@font-face {
+  font-family: 'Calibre-Regular';
+  src: url('../assests/fonts/Calibre-Regular.otf') format('otf'),
+}
+  .product-card {
+    transition: all 0.3s;
+    max-width: 300px;
+    margin: 3px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .product-card:hover {
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  
+  @media (max-width: 486px) {
+    .product-list {
+      justify-content: center;
+    }
+  
+    .product-card {
+      flex: 0 1 calc(50% - 20px); /* Two columns with some spacing between them */
+      margin: 10px;
+      margin-bottom: 60px;
+    }
+  }
+  
+.product-name {
+  font-family: 'Graphik-Regular', 'Calibre-Regular';
+}
+
+@media (max-width: 486px) {
+.product-image {
+ width: 130px;
+
+}
+}
+
+.addToCartButton {
+  font-family: 'Graphik-Regular', 'Calibre-Regular';
+    background-color: #fff;
+    color: #000;
+    margin: 5px auto; /* Center the button horizontally */
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+    width: 90%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+  }
+  
+  .addToCartButton:hover {
+    background-color: #000;
+    color: #f5b921;
+  }
+
+   p {
+    font-family: 'Graphik-Regular', 'Calibre-Regular';
+  }
+  
